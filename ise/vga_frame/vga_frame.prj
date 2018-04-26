@@ -1,0 +1,7 @@
+verilog work "ipcore_dir/ram_40000x8.v"
+verilog work "../../design/vga_module.v"
+verilog work "../../design/vga_clk_module.v"
+verilog work "../../design/uart_rx.v"
+verilog work "../../design/uart_bps_rx.v"
+verilog work "../../design/frame_ctrl.v"
+verilog work "../../design/vga_frame.v"

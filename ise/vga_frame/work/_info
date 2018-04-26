@@ -1,0 +1,208 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dE:\FPGA\17vga__frame\ise\vga_frame
+!i10d 8192
+!i10e 25
+!i10f 100
+T_opt
+!s110 1516931024
+VH83F6K57c>6P=P9Gn<>]23
+04 6 4 work tb_top fast 0
+04 4 4 work glbl fast 0
+=1-448a5bee2e26-5a6a87ca-11c-4bc
+o-quiet -auto_acc_if_foreign -work work -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip +acc
+n@_opt
+OL;O;10.2;57
+vfram_ctrl
+Z1 !s110 1516931016
+I2zV]Y<a6@iRRlWWjKCT2h0
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+Z3 dE:\FPGA\17vga__frame\ise\vga_frame
+w1516885937
+8../../design/frame_ctrl.v
+F../../design/frame_ctrl.v
+L0 1
+Z4 OL;L;10.2;57
+r1
+31
+Z5 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s100 ?R>FH@YP?Sdj3PGY66Ro=3
+!s90 -reportprogress|300|../../design/frame_ctrl.v|
+!s108 1516931016.858000
+!s107 ../../design/frame_ctrl.v|
+!i10b 1
+!s85 0
+vglbl
+Z6 !s110 1516931017
+IF<9he?AP7?cZW6JPLLngH3
+R2
+R3
+w1381681120
+8D:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v
+FD:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v
+L0 5
+R4
+r1
+31
+R5
+!s100 V<`KW`8LXe32mQ2Gdj1MB2
+!s90 -reportprogress|300|D:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v|
+!i10b 1
+!s85 0
+!s108 1516931017.194000
+!s107 D:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v|
+vram_40000x8
+IQB3@7J9j]8iH69BXnlRUV2
+R2
+R3
+w1516888204
+8ipcore_dir/ram_40000x8.v
+Fipcore_dir/ram_40000x8.v
+L0 39
+R4
+r1
+31
+R5
+R1
+!s100 Fmf71CF8]JCKnz3Izfmbl1
+!s90 -reportprogress|300|ipcore_dir/ram_40000x8.v|
+!s108 1516931016.110000
+!s107 ipcore_dir/ram_40000x8.v|
+!i10b 1
+!s85 0
+vtb_top
+R6
+ILLgb@A;KbOW4jB@XlMUWc1
+R2
+R3
+w1516890822
+8../../sim/tb_top.v
+F../../sim/tb_top.v
+L0 2
+R4
+r1
+31
+R5
+!s100 oPJAKY^TUKaWeB0K2Um6Y3
+!s90 -reportprogress|300|../../sim/tb_top.v|
+!s108 1516931017.084000
+!s107 ../../sim/tb_top.v|
+!i10b 1
+!s85 0
+vuart_bps_rx
+R1
+I>OGMAgmf=zHUehcTAbd740
+R2
+R3
+w1516775827
+8../../design/uart_bps_rx.v
+F../../design/uart_bps_rx.v
+L0 1
+R4
+r1
+31
+R5
+!s100 KL4Bmck9fh`H<V7zln<PC2
+!s90 -reportprogress|300|../../design/uart_bps_rx.v|
+!s108 1516931016.713000
+!s107 ../../design/uart_bps_rx.v|
+!i10b 1
+!s85 0
+vuart_rx
+R1
+I?kmiIl;3Ti]C`2CnAlbXE2
+R2
+R3
+w1516352962
+8../../design/uart_rx.v
+F../../design/uart_rx.v
+L0 1
+R4
+r1
+31
+R5
+!s100 c[lno=a^?AcDmoQ7GnlJ53
+!s90 -reportprogress|300|../../design/uart_rx.v|
+!s108 1516931016.604000
+!s107 ../../design/uart_rx.v|
+!i10b 1
+!s85 0
+vuart_tx
+I4S5IOWeo]5E81gGjij40n1
+R2
+R3
+w1516700273
+8../../design/uart_tx.v
+F../../design/uart_tx.v
+L0 1
+R4
+r1
+31
+R5
+!s110 1516774678
+!s100 FMC3SHg0[JAS;J?JQ?UNh2
+!s90 -reportprogress|300|../../design/uart_tx.v|
+!s108 1516774678.153000
+!s107 ../../design/uart_tx.v|
+!i10b 1
+!s85 0
+vvga_clk_module
+R1
+IWPf=NVVlO3KMR;ldmLB_Q3
+R2
+R3
+w1516165864
+8../../design/vga_clk_module.v
+F../../design/vga_clk_module.v
+L0 1
+R4
+r1
+31
+R5
+!s100 ;h@=1WggU^Ll>jTRRZcQc2
+!s90 -reportprogress|300|../../design/vga_clk_module.v|
+!s108 1516931016.494000
+!s107 ../../design/vga_clk_module.v|
+!i10b 1
+!s85 0
+vvga_frame
+I?c9<nIGgc63o<^eEn4^fW1
+R2
+R3
+w1516929536
+8../../design/vga_frame.v
+F../../design/vga_frame.v
+L0 1
+R4
+r1
+31
+R5
+R6
+!s90 -reportprogress|300|../../design/vga_frame.v|
+!s100 AGjRAbk0]2RNTj=@WYX6M1
+!s108 1516931016.974000
+!s107 ../../design/vga_frame.v|
+!i10b 1
+!s85 0
+vvga_module
+R1
+IiFUDejUD3d3ZVbE>43i@m2
+R2
+R3
+w1516773562
+8../../design/vga_module.v
+F../../design/vga_module.v
+L0 1
+R4
+r1
+31
+R5
+!s100 J<HK:fNjJ?[<keJ8XN8^j2
+!s90 -reportprogress|300|../../design/vga_module.v|
+!s108 1516931016.301000
+!s107 ../../design/vga_module.v|
+!i10b 1
+!s85 0

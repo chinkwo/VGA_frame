@@ -1,0 +1,120 @@
+# Reading D:/modeltech64_10.2/tcl/vsim/pref.tcl 
+# //  ModelSim SE-64 10.2 Feb  2 2013 
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do {tb_top.fdo} 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module ram_40000x8
+# 
+# Top level modules:
+# 	ram_40000x8
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module vga_module
+# ** Warning: ../../design/vga_module.v(201): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	vga_module
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module vga_clk_module
+# 
+# Top level modules:
+# 	vga_clk_module
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module uart_rx
+# 
+# Top level modules:
+# 	uart_rx
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module uart_bps_rx
+# 
+# Top level modules:
+# 	uart_bps_rx
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module fram_ctrl
+# 
+# Top level modules:
+# 	fram_ctrl
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module vga_frame
+# 
+# Top level modules:
+# 	vga_frame
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module tb_top
+# 
+# Top level modules:
+# 	tb_top
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# vsim -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip -lib work -voptargs=\"+acc\" -t 1ps work.tb_top glbl 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading work.tb_top(fast)
+# Loading work.vga_frame(fast)
+# Loading work.uart_bps_rx(fast)
+# Loading work.uart_rx(fast)
+# Loading work.fram_ctrl(fast)
+# Loading work.ram_40000x8(fast)
+# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_3(fast)
+# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_3_mem_module(fast)
+# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_3_output_stage(fast)
+# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_3_softecc_output_reg_stage(fast)
+# Loading work.vga_clk_module(fast)
+# Loading work.vga_module(fast)
+# Loading work.glbl(fast)
+# ** Warning: (vsim-3015) ../../sim/tb_top.v(66): [PCDPC] - Port size (3 or 3) does not match connection size (1) for port 'r'. The port definition is at: ../../design/vga_frame.v(7).
+# 
+#         Region: /tb_top/INST
+# ** Warning: (vsim-3015) ../../sim/tb_top.v(66): [PCDPC] - Port size (3 or 3) does not match connection size (1) for port 'g'. The port definition is at: ../../design/vga_frame.v(8).
+# 
+#         Region: /tb_top/INST
+# ** Warning: (vsim-3015) ../../sim/tb_top.v(66): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'b'. The port definition is at: ../../design/vga_frame.v(9).
+# 
+#         Region: /tb_top/INST
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Block Memory Generator CORE Generator module tb_top.INST.U4.U1.inst.native_mem_module.blk_mem_gen_v7_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+add wave -position insertpoint sim:/tb_top/INST/*
+add wave -position insertpoint sim:/tb_top/INST/U4/*
+add wave -position insertpoint sim:/tb_top/INST/U6/*
+add wave -position insertpoint sim:/tb_top/INST/U2/*
+run
+restart
+# Loading work.tb_top(fast)
+# Loading work.vga_frame(fast)
+# Loading work.uart_bps_rx(fast)
+# Loading work.uart_rx(fast)
+# Loading work.fram_ctrl(fast)
+# Loading work.ram_40000x8(fast)
+# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_3(fast)
+# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_3_mem_module(fast)
+# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_3_output_stage(fast)
+# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_3_softecc_output_reg_stage(fast)
+# Loading work.vga_clk_module(fast)
+# Loading work.vga_module(fast)
+# Loading work.glbl(fast)
+# ** Warning: (vsim-3015) ../../sim/tb_top.v(66): [PCDPC] - Port size (3 or 3) does not match connection size (1) for port 'r'. The port definition is at: ../../design/vga_frame.v(7).
+# 
+#         Region: /tb_top/INST
+# ** Warning: (vsim-3015) ../../sim/tb_top.v(66): [PCDPC] - Port size (3 or 3) does not match connection size (1) for port 'g'. The port definition is at: ../../design/vga_frame.v(8).
+# 
+#         Region: /tb_top/INST
+# ** Warning: (vsim-3015) ../../sim/tb_top.v(66): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'b'. The port definition is at: ../../design/vga_frame.v(9).
+# 
+#         Region: /tb_top/INST
+run -all
+# Block Memory Generator CORE Generator module tb_top.INST.U4.U1.inst.native_mem_module.blk_mem_gen_v7_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+run -all

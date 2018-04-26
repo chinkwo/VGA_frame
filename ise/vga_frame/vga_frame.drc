@@ -1,0 +1,189 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Fri Jan 26 10:19:41 2018
+
+drc -z vga_frame.ncd vga_frame.pcf
+
+WARNING:PhysDesignRules:2212 - Async clocking for BRAM (comp
+   U4/U1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramlo
+   op[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram) port(s) with READ_FIRST mode
+   has certain restrictions. Make sure that there is no address collision. A
+   read/write on one port and a write operation from the other port at the same
+   address is not allowed. RAMB16BWER, when both ports are 18 bits wide or
+   smaller, A13-6 including A4 cannot be same. When any one port is 36 bits
+   wide, A13-7 including A5 cannot be the same. Violating this restriction may
+   result in the incorrect operation of the BRAM.
+WARNING:PhysDesignRules:2212 - Async clocking for BRAM (comp
+   U4/U1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramlo
+   op[1].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram) port(s) with READ_FIRST mode
+   has certain restrictions. Make sure that there is no address collision. A
+   read/write on one port and a write operation from the other port at the same
+   address is not allowed. RAMB16BWER, when both ports are 18 bits wide or
+   smaller, A13-6 including A4 cannot be same. When any one port is 36 bits
+   wide, A13-7 including A5 cannot be the same. Violating this restriction may
+   result in the incorrect operation of the BRAM.
+WARNING:PhysDesignRules:2212 - Async clocking for BRAM (comp
+   U4/U1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramlo
+   op[2].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram) port(s) with READ_FIRST mode
+   has certain restrictions. Make sure that there is no address collision. A
+   read/write on one port and a write operation from the other port at the same
+   address is not allowed. RAMB16BWER, when both ports are 18 bits wide or
+   smaller, A13-6 including A4 cannot be same. When any one port is 36 bits
+   wide, A13-7 including A5 cannot be the same. Violating this restriction may
+   result in the incorrect operation of the BRAM.
+WARNING:PhysDesignRules:2212 - Async clocking for BRAM (comp
+   U4/U1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramlo
+   op[3].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram) port(s) with READ_FIRST mode
+   has certain restrictions. Make sure that there is no address collision. A
+   read/write on one port and a write operation from the other port at the same
+   address is not allowed. RAMB16BWER, when both ports are 18 bits wide or
+   smaller, A13-6 including A4 cannot be same. When any one port is 36 bits
+   wide, A13-7 including A5 cannot be the same. Violating this restriction may
+   result in the incorrect operation of the BRAM.
+WARNING:PhysDesignRules:2212 - Async clocking for BRAM (comp
+   U4/U1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramlo
+   op[4].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram) port(s) with READ_FIRST mode
+   has certain restrictions. Make sure that there is no address collision. A
+   read/write on one port and a write operation from the other port at the same
+   address is not allowed. RAMB16BWER, when both ports are 18 bits wide or
+   smaller, A13-6 including A4 cannot be same. When any one port is 36 bits
+   wide, A13-7 including A5 cannot be the same. Violating this restriction may
+   result in the incorrect operation of the BRAM.
+WARNING:PhysDesignRules:2212 - Async clocking for BRAM (comp
+   U4/U1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramlo
+   op[5].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram) port(s) with READ_FIRST mode
+   has certain restrictions. Make sure that there is no address collision. A
+   read/write on one port and a write operation from the other port at the same
+   address is not allowed. RAMB16BWER, when both ports are 18 bits wide or
+   smaller, A13-6 including A4 cannot be same. When any one port is 36 bits
+   wide, A13-7 including A5 cannot be the same. Violating this restriction may
+   result in the incorrect operation of the BRAM.
+WARNING:PhysDesignRules:2212 - Async clocking for BRAM (comp
+   U4/U1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramlo
+   op[6].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram) port(s) with READ_FIRST mode
+   has certain restrictions. Make sure that there is no address collision. A
+   read/write on one port and a write operation from the other port at the same
+   address is not allowed. RAMB16BWER, when both ports are 18 bits wide or
+   smaller, A13-6 including A4 cannot be same. When any one port is 36 bits
+   wide, A13-7 including A5 cannot be the same. Violating this restriction may
+   result in the incorrect operation of the BRAM.
+WARNING:PhysDesignRules:2212 - Async clocking for BRAM (comp
+   U4/U1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramlo
+   op[7].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram) port(s) with READ_FIRST mode
+   has certain restrictions. Make sure that there is no address collision. A
+   read/write on one port and a write operation from the other port at the same
+   address is not allowed. RAMB16BWER, when both ports are 18 bits wide or
+   smaller, A13-6 including A4 cannot be same. When any one port is 36 bits
+   wide, A13-7 including A5 cannot be the same. Violating this restriction may
+   result in the incorrect operation of the BRAM.
+WARNING:PhysDesignRules:2212 - Async clocking for BRAM (comp
+   U4/U1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramlo
+   op[8].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram) port(s) with READ_FIRST mode
+   has certain restrictions. Make sure that there is no address collision. A
+   read/write on one port and a write operation from the other port at the same
+   address is not allowed. RAMB16BWER, when both ports are 18 bits wide or
+   smaller, A13-6 including A4 cannot be same. When any one port is 36 bits
+   wide, A13-7 including A5 cannot be the same. Violating this restriction may
+   result in the incorrect operation of the BRAM.
+WARNING:PhysDesignRules:2212 - Async clocking for BRAM (comp
+   U4/U1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramlo
+   op[9].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram) port(s) with READ_FIRST mode
+   has certain restrictions. Make sure that there is no address collision. A
+   read/write on one port and a write operation from the other port at the same
+   address is not allowed. RAMB16BWER, when both ports are 18 bits wide or
+   smaller, A13-6 including A4 cannot be same. When any one port is 36 bits
+   wide, A13-7 including A5 cannot be the same. Violating this restriction may
+   result in the incorrect operation of the BRAM.
+WARNING:PhysDesignRules:2212 - Async clocking for BRAM (comp
+   U4/U1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramlo
+   op[10].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram) port(s) with READ_FIRST
+   mode has certain restrictions. Make sure that there is no address collision.
+   A read/write on one port and a write operation from the other port at the
+   same address is not allowed. RAMB16BWER, when both ports are 18 bits wide or
+   smaller, A13-6 including A4 cannot be same. When any one port is 36 bits
+   wide, A13-7 including A5 cannot be the same. Violating this restriction may
+   result in the incorrect operation of the BRAM.
+WARNING:PhysDesignRules:2212 - Async clocking for BRAM (comp
+   U4/U1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramlo
+   op[11].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram) port(s) with READ_FIRST
+   mode has certain restrictions. Make sure that there is no address collision.
+   A read/write on one port and a write operation from the other port at the
+   same address is not allowed. RAMB16BWER, when both ports are 18 bits wide or
+   smaller, A13-6 including A4 cannot be same. When any one port is 36 bits
+   wide, A13-7 including A5 cannot be the same. Violating this restriction may
+   result in the incorrect operation of the BRAM.
+WARNING:PhysDesignRules:2212 - Async clocking for BRAM (comp
+   U4/U1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramlo
+   op[12].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram) port(s) with READ_FIRST
+   mode has certain restrictions. Make sure that there is no address collision.
+   A read/write on one port and a write operation from the other port at the
+   same address is not allowed. RAMB16BWER, when both ports are 18 bits wide or
+   smaller, A13-6 including A4 cannot be same. When any one port is 36 bits
+   wide, A13-7 including A5 cannot be the same. Violating this restriction may
+   result in the incorrect operation of the BRAM.
+WARNING:PhysDesignRules:2212 - Async clocking for BRAM (comp
+   U4/U1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramlo
+   op[13].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram) port(s) with READ_FIRST
+   mode has certain restrictions. Make sure that there is no address collision.
+   A read/write on one port and a write operation from the other port at the
+   same address is not allowed. RAMB16BWER, when both ports are 18 bits wide or
+   smaller, A13-6 including A4 cannot be same. When any one port is 36 bits
+   wide, A13-7 including A5 cannot be the same. Violating this restriction may
+   result in the incorrect operation of the BRAM.
+WARNING:PhysDesignRules:2212 - Async clocking for BRAM (comp
+   U4/U1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramlo
+   op[14].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram) port(s) with READ_FIRST
+   mode has certain restrictions. Make sure that there is no address collision.
+   A read/write on one port and a write operation from the other port at the
+   same address is not allowed. RAMB16BWER, when both ports are 18 bits wide or
+   smaller, A13-6 including A4 cannot be same. When any one port is 36 bits
+   wide, A13-7 including A5 cannot be the same. Violating this restriction may
+   result in the incorrect operation of the BRAM.
+WARNING:PhysDesignRules:2212 - Async clocking for BRAM (comp
+   U4/U1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramlo
+   op[15].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram) port(s) with READ_FIRST
+   mode has certain restrictions. Make sure that there is no address collision.
+   A read/write on one port and a write operation from the other port at the
+   same address is not allowed. RAMB16BWER, when both ports are 18 bits wide or
+   smaller, A13-6 including A4 cannot be same. When any one port is 36 bits
+   wide, A13-7 including A5 cannot be the same. Violating this restriction may
+   result in the incorrect operation of the BRAM.
+WARNING:PhysDesignRules:2212 - Async clocking for BRAM (comp
+   U4/U1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramlo
+   op[16].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram) port(s) with READ_FIRST
+   mode has certain restrictions. Make sure that there is no address collision.
+   A read/write on one port and a write operation from the other port at the
+   same address is not allowed. RAMB16BWER, when both ports are 18 bits wide or
+   smaller, A13-6 including A4 cannot be same. When any one port is 36 bits
+   wide, A13-7 including A5 cannot be the same. Violating this restriction may
+   result in the incorrect operation of the BRAM.
+WARNING:PhysDesignRules:2212 - Async clocking for BRAM (comp
+   U4/U1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramlo
+   op[17].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram) port(s) with READ_FIRST
+   mode has certain restrictions. Make sure that there is no address collision.
+   A read/write on one port and a write operation from the other port at the
+   same address is not allowed. RAMB16BWER, when both ports are 18 bits wide or
+   smaller, A13-6 including A4 cannot be same. When any one port is 36 bits
+   wide, A13-7 including A5 cannot be the same. Violating this restriction may
+   result in the incorrect operation of the BRAM.
+WARNING:PhysDesignRules:2212 - Async clocking for BRAM (comp
+   U4/U1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramlo
+   op[18].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram) port(s) with READ_FIRST
+   mode has certain restrictions. Make sure that there is no address collision.
+   A read/write on one port and a write operation from the other port at the
+   same address is not allowed. RAMB16BWER, when both ports are 18 bits wide or
+   smaller, A13-6 including A4 cannot be same. When any one port is 36 bits
+   wide, A13-7 including A5 cannot be the same. Violating this restriction may
+   result in the incorrect operation of the BRAM.
+WARNING:PhysDesignRules:2212 - Async clocking for BRAM (comp
+   U4/U1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramlo
+   op[19].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram) port(s) with READ_FIRST
+   mode has certain restrictions. Make sure that there is no address collision.
+   A read/write on one port and a write operation from the other port at the
+   same address is not allowed. RAMB16BWER, when both ports are 18 bits wide or
+   smaller, A13-6 including A4 cannot be same. When any one port is 36 bits
+   wide, A13-7 including A5 cannot be the same. Violating this restriction may
+   result in the incorrect operation of the BRAM.
+DRC detected 0 errors and 20 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

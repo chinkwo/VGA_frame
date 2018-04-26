@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\FPGA\17vga__frame\ise\vga_frame\vga_frame.ncd
+OUTFILE=E:\FPGA\17vga__frame\ise\vga_frame\vga_frame.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=E:\FPGA\17vga__frame\ise\vga_frame
+LICENSE=WebPack
+USER_INFO=__0_0_0
